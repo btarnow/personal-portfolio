@@ -1,5 +1,3 @@
-/*  */
-
 * {
     margin: 0;
     padding: 0;
@@ -53,7 +51,6 @@ body {
     max-width: 1920px;
 }
 
-
 /* GENERAL SECTION STYLES */
 section {
     padding: 10rem 0;
@@ -78,7 +75,7 @@ section > p {
 
 /* GENERAL SECTION STYLES */
 a {
-    /* color: var(--color-white); */
+    color: var(--color-white);
     transition: var(--transition);
 }
 
@@ -191,6 +188,8 @@ img {
         font-size: 2rem;
     }
 }
+
+
 
 
 
