@@ -9,7 +9,4 @@ const data = [
     {id: 3, icon: <TbDog/>, title: 'Dog Person', desc: 'Certified therapy dog team with my dog' },
     ]
 
-    // , desc: 'Love hiking, running, & exploring
-    // , desc: 'A life-long learner'
-    // , desc: 'Certified therapy dog team with my dog' 
     export default data; 
