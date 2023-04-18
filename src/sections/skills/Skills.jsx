@@ -20,10 +20,10 @@ const Skills = () => {
   return (
     <section id="skills">
       <h2>Technical Skills</h2>
-
+      <br></br>
       <div className='container'>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={5}
         spaceBetween={30}
         pagination={{
           clickable: true,

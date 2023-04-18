@@ -1,0 +1,25 @@
+#skills {
+    padding-bottom: 0;
+}
+
+/* This is to move the swipe bullet bar up to meet the slides better */
+.swiper { 
+    height: fit-content;
+    padding-bottom: 10rem;
+}
+
+.swiper-slide {
+     cursor: grab; 
+}
+
+.swiper-pagination { 
+    margin-bottom: 8rem;
+}
+
+.swiper-pagination-bullet { 
+    background: var(--color-primary);
+}
+
+.logo__img {
+    display: flex; 
+}
