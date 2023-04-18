@@ -1,9 +1,9 @@
 import './card.css'
 
-const Card = (props, className, onClick) => {
+const Card = ({children, className, onClick}) => {
   return (
-    <article className={`card ${className}`} onClick={onClick} >
-        {props.children}
+    <article className={`card ${className}`} onClick={onClick}>
+        {children}
     </article>
   )
 }

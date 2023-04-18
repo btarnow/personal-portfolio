@@ -1,12 +1,12 @@
 .card {
-    background-color: var(--color-white);
+    background: var(--color-white);
     padding: 1.5rem;
     border: 2px solid transparent;
     border-radius: var(--border-radius-1);
     transition: var(--transition);
 }
 
-.cover:hover {
+.card:hover {
     background: transparent;
     border-color: var(--color-white);
     transform: translateY(-0.5rem);
@@ -17,7 +17,7 @@
 }
 
 .card.light:hover {
-    background: transparent; 
+    background: transparent;
     border-color: var(--color-light);
 }
 
