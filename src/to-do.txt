@@ -1,0 +1,7 @@
+TO-DO LIST: 
+
+[]: Fix how technical skill logo images look distorted within the card component 
+    when the screen is really small. Possible solution--> just show the name and
+    not the logo? 
+
+[]: 
