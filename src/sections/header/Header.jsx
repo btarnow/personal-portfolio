@@ -18,7 +18,7 @@ const Header = () => {
         {/* Header "Call To Action area" */}
         <div className="header__cta">
           <a href="#contact" className="btn primary">Let's talk</a>
-          <a href="#projects" className="btn light">My Work</a>
+          <a href="#portfolio" className="btn light">My Work</a>
         </div>
 
         <div className="header__socials">

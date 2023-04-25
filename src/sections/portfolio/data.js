@@ -8,7 +8,7 @@ const data = [
         image: EverykidImg,
         title: 'Everykid',
         desc: 'Discover children’s books with diverse characters 📚',
-        demoSite: 'http://18.216.150.110/',
+        demo: 'http://18.216.150.110/',
         github: 'https://github.com/btarnow/Everykid',
     },
 
@@ -17,7 +17,7 @@ const data = [
         image: PlaceholderImg,
         title: 'Placeholder project',
         desc: 'Placeholder project description',
-        demoSite: 'https://google.com',
+        demo: 'https://google.com',
         github: 'https://github.com/btarnow/',
     },
 
