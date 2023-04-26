@@ -9,10 +9,9 @@ const Header = () => {
         <div className="header__profile">
           <img src={ProfilePic} alt="Header Portrait" />
         </div>
-
-        <h3>Becky Tarnowski</h3>
+        <h1 className='hello'>Hi, I'm Becky.</h1>
         <p>
-          Text here about myself.
+        I am a software engineer with a background in education.
         </p>
         
         {/* Header "Call To Action area" */}
