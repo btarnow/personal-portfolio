@@ -19,6 +19,9 @@ const Footer = () => {
           }
         </div>
       </div>
+      <div className="footer__copyright">
+        <small>&copy; Becky Tarnowski 2023</small>
+      </div>
     </footer>
   )
 }

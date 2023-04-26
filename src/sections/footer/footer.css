@@ -1,6 +1,6 @@
 footer {
     background: var(--color-primary);
-    padding-top: 8rem;
+    padding-top: 3rem;
     box-shadow: 0 -1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
     transition: var(--transition);
 }
@@ -13,7 +13,7 @@ footer .nav__menu {
     width: fit-content;
     display: flex;
     gap: 1.5rem;
-    margin: 3rem auto 4rem;
+    margin: 2rem auto 2rem;
 }
 
 .footer__socials a {

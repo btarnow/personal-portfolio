@@ -5,7 +5,7 @@ import About from './sections/about/About';
 import Portfolio from './sections/portfolio/Portfolio';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
-import FloatingNav from './sections/floating-nav/FloatingNav';
+// import FloatingNav from './sections/floating-nav/FloatingNav';
 
 const App = () => {
   return (
@@ -17,8 +17,6 @@ const App = () => {
       <Portfolio/>
       <Contact/>
       <Footer/>
-      <FloatingNav/>
-  
     </main>
   )
 }
