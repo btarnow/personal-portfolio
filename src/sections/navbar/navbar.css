@@ -22,6 +22,7 @@ nav {
     width: 2.5rem;
     border-radius: 50%;
     overflow: hidden;
+    filter: grayscale(1);
 }
 
 .nav__menu {
