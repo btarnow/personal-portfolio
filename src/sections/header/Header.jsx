@@ -13,7 +13,7 @@ const Header = () => {
           <img src={ProfilePic} alt="Header Portrait" />
         </div>
         <br></br>
-        <div className="container contact__container" data-aos="fade-up">
+        <div className="contact__container2" data-aos="fade-up">
         {
           data.map(data => <a key={data.id} href={data.link} target="_blank" rel="noopener noreferrer">{data.icon}</a>)
         }

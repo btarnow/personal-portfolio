@@ -4,6 +4,8 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import FlowerImage from '../../assets/flower-2.png'
+
 
 // Using emailjs to create the email form: https://www.emailjs.com/docs/examples/reactjs/
 // Message update using React Toastify: https://www.npmjs.com/package/react-toastify
@@ -34,12 +36,11 @@ const Contact = () => {
     <section id="contact">
       <h2>Contact</h2>
       <p>Are you interested in connecting? I'd love to hear from you!</p>
+     
       <div className="container contact__container">
         <div className="contact__left">
-      
-          
-           
-          {/* <div className="container socials__container">
+          <img className='flower contact__portrait' src={FlowerImage} alt="Image by lapetiteprune"></img>
+          {/* <div className="socials__container">
             {
               contacts.map(contact => <a key={contact.id} href={contact.link} target="_blank" rel="noopener noreferrer">{contact.icon}</a>)
             }
@@ -60,16 +61,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
-     
-      {/* <div className="container socials__container" data-aos="fade-up">
-        {
-          contacts.map(contact => <a key={contact.id} href={contact.link} target="_blank" rel="noopener noreferrer">{contact.icon}</a>)
-        }
-      </div> */}
     </section>
   )
 }
 
 export default Contact
-

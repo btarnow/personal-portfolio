@@ -64,19 +64,23 @@ header {
     transform: translateX(-0.5rem);
 }
 
-.contact__container a {
-    width: 3.5rem;
+.contact__container2 a {
+    width: 2rem;
     aspect-ratio: 1/1;
     color: white;
     background: var(--color-primary);
-    display: grid;
+    display: inline;
+    padding: 1rem;
     place-items: center;
+    
     font-size: 2rem;
     border: 2px solid transparent;
     border-radius: var(--border-radius-1);
+    margin: 1rem;
+    
 }
 
-.contact__container a:hover {
+.contact__container2 a:hover {
     background: transparent;
     border-color: var(--color-primary);
     color: var(--color-primary);
