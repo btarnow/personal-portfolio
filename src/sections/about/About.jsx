@@ -14,9 +14,11 @@ const About = () => {
           <div className="about__portrait">
             <img src={RowinPic} alt="Becky with her dog Rowin" />
           </div>
+          <a href={Resume} download className='btn primary'>Download Resume<HiDownload /></a>
         </div>
         <div className="about__right">
           <h2>About Me</h2>
+
           <div className='about__cards'>
             {
               data.map(item => (
@@ -28,15 +30,26 @@ const About = () => {
               ))
             }
           </div>
-          <p>
-              Text about myself. Text about myself. Text about myself. 
-              Text about myself. Text about myself. Text about myself.
-            </p>
             <p>
-              Text about myself. Text about myself. Text about myself. 
-              Text about myself. Text about myself. Text about myself.  
+            I began my professional career in education. I worked in Indianapolis 
+            Public Schools for seven years as both a teacher and an instructional 
+            coach. I loved teaching math and automating processes for our school 
+            through technology. I transitioned into software engineering because 
+            I have knack for solving problems with technology and want to build 
+            products that make a positive impact on the world. 
             </p>
-            <a href={Resume} download className='btn primary'>Download Resume<HiDownload /></a>
+            <br></br>
+            <h4>Fun Facts:</h4>
+            <ul>
+              <li>🧠 I enjoy learning about the brain & applied neuroscience </li>
+              <li>🥒 I'm exploring eating less meat & enjoy cooking new meals</li>
+              <li>👩🏼‍🌾 I genuinely enjoy yard work</li>
+              <li>🐶 My dog and I are a certified therapy dog team together</li>
+              <li>🌾 Favorite Board Game: Settlers of Catan</li>
+              <li>🍣 Favorite Food: Sushi</li>
+              <li>🇮🇸 Favorite Place I've Traveled: Iceland</li>
+            </ul>
+
         </div>
       </div>
     </section>

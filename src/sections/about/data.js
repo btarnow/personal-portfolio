@@ -4,9 +4,9 @@ import {TbMountain} from 'react-icons/tb'
 
 
 const data = [
-    {id: 1, icon: <TbMountain/>, title: 'Outdoorsy', desc: 'Love hiking, running, & exploring'},
-    {id: 2, icon: <TbBooks/>, title: 'Curious', desc: 'A life-long learner'},
-    {id: 3, icon: <TbDog/>, title: 'Dog Person', desc: 'Certified therapy dog team with my dog' },
+    {id: 1, icon: <TbMountain/>, title: 'Outdoorsy', desc: 'I love hiking, running, gardening, & exploring'},
+    {id: 2, icon: <TbBooks/>, title: 'Life-Long Learner', desc: "Always curious and always growing"},
+    {id: 3, icon: <TbDog/>, title: 'Dog Person', desc: 'You can find me at the dog park' },
     ]
 
     export default data; 

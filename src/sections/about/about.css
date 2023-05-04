@@ -52,8 +52,9 @@
     margin-bottom: 0.8rem;
 }
 
-.about__right .btn {
-    margin-top: 2.5rem;
+.about__left .btn {
+    margin-top: 2rem;
+    justify-content: center;
 }
 
 
