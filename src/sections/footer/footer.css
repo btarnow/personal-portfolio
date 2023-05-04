@@ -16,6 +16,10 @@ footer .nav__menu {
     margin: 2rem auto 2rem;
 }
 
+.social_icon {
+    font-size: 1.5rem;
+}
+
 .footer__socials a {
     background: var(--color-black);
     color: var(--color-white);
