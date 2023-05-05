@@ -54,9 +54,12 @@
 
 .about__left .btn {
     margin-top: 2rem;
-    justify-content: center;
 }
 
+.center_btn {
+    display: flex;
+    justify-content: center;
+}
 
 
 /* MEDIA QUERIES (tablets) */

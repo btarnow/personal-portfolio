@@ -1,6 +1,7 @@
 
 import EverykidImg from '../../assets/everykid-home.png'
 import PlaceholderImg from '../../assets/img-placeholder.jpeg'
+import PortfolioImg from '../../assets/portfolio-img.png'
 
 const data = [
     {
@@ -14,11 +15,11 @@ const data = [
 
     {
         id: 2,
-        image: PlaceholderImg,
-        title: 'Placeholder project',
-        desc: 'Placeholder project description',
-        demo: 'https://google.com',
-        github: 'https://github.com/btarnow/',
+        image: PortfolioImg,
+        title: 'Personal Portfolio',
+        desc: 'You are here 🙃',
+        demo: 'https://github.com/btarnow/personal-portfolio',
+        github: 'https://github.com/btarnow/personal-portfolio',
     },
 
 ]

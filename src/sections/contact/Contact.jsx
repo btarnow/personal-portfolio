@@ -32,6 +32,8 @@ const Contact = () => {
     toast.success("Message Sent");
   }
 
+
+
   return (
     <section id="contact">
       <h2>Contact</h2>
