@@ -6,6 +6,7 @@ import Portfolio from './sections/portfolio/Portfolio';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 import { ToastContainer } from 'react-toastify';
+import Modal from './components/Modal'
 // import FloatingNav from './sections/floating-nav/FloatingNav';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Portfolio/>
       <Contact/>
       <Footer/>
+      <Modal/>
       <ToastContainer/>
     </main>
   )
